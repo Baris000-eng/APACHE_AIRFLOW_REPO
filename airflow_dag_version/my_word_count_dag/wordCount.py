@@ -15,7 +15,7 @@ def reduction_function(key, values):
 
 
 def word_count():
-    with open("input.txt") as file:  # reading the txt file
+    with open("data.txt") as file:  # reading the txt file
         words = [my_word for line in file for my_word in line.split()]  # splitting the words
 
     map_res = map(mapping_function, words)  # map all words in the txt file with a count of 1.
