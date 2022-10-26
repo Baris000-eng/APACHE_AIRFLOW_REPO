@@ -13,7 +13,7 @@ args = {
     'email_on_failure': True,
     'email_on_retry': True,
     'depends_on_past': False,
-    'start_date': dt.datetime(22,10,24),
+    'start_date': dt.datetime(22,10,24), #önceki gün vermek gerekiyor (bulunulan günden) 
     'max_active_runs':1,
     'email_on_success': True,
     'schedule_interval': '@daily' #scheduling the interval as daily
