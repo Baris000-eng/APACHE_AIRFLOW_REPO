@@ -20,6 +20,8 @@ args = {
 }
 
 
+#with dag:
+#operator types.. (Bash operator, python operator ....)
 dag = DAG('hello_world', description='Hello World DAG',
           default_args = args, catchup=False)
 
